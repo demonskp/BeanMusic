@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/notification_play_bar_all"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/notification_play_bar_cover"
+        android:layout_width="64dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/default_cover"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/notification_play_bar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:paddingBottom="3dp"
+            android:singleLine="true"
+            android:text="无音乐"
+            android:textColor="@color/black"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/notification_play_bar_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="歌手 - 专辑名"
+            android:textColor="@color/grey"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/notification_play_bar_play"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:id="@+id/notification_play_bar_next"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_play_bar_btn_next"/>
+
+</LinearLayout>

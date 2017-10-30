@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BeanMusic</string>
+    <string name="copyright">Copyright © 2015&#045;%d SWUST</string>
+</resources>
